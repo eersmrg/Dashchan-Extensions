@@ -1,9 +1,0 @@
-for (f in file('engines').listFiles()) {
-    include ':engines:' + f.getName()
-}
-for (f in file('extensions').listFiles()) {
-    include ':extensions:' + f.getName()
-}
-for (f in file('libraries').listFiles()) {
-    include ':libraries:' + f.getName()
-}

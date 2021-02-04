@@ -1,9 +1,0 @@
-rootProject.configureExtension(project, [
-		versionName: '1.5',
-		apiVersion: 1,
-		hosts: ['desuarchive.org', 'desustorage.org']
-])
-
-dependencies {
-	implementation project(':engines:foolfuuka')
-}
